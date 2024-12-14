@@ -104533,9 +104533,13 @@ A.Ot.prototype={}
 A.a5O.prototype={}
 A.wb.prototype={
 uc(a){return this.awD(a)},
-awD(a){var s=0,r=A.A(t.AT),q
+awD(a){var s=0,r=A.A(t.AT),q,p
 var $async$uc=A.v(function(b,c){if(b===1)return A.x(c,r)
-while(true)switch(s){case 0:a.r.p(0,"Content-Type","application/json")
+while(true)switch(s){case 0:p=a.r
+p.p(0,"Content-Type","application/json")
+p.p(0,"Access-Control-Allow-Origin","*")
+p.p(0,"Access-Control-Allow-Methods","GET,PUT,PATCH,POST,DELETE")
+p.p(0,"Access-Control-Allow-Headers","Origin, X-Requested-With, Content-Type, Accept")
 q=a
 s=1
 break
