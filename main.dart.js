@@ -104579,7 +104579,7 @@ s=p}while(true)switch(s){case 0:A.J("LLLLLLLLLLLLdddd")
 m=null
 p=4
 s=7
-return A.V(A.bbX(A.hM("http://65.2.57.57:5000/bus-seva/"+a,0,null)),$async$z9)
+return A.V(A.bbX(A.hM("http://13.203.7.164:5000/bus-seva/"+a,0,null)),$async$z9)
 case 7:l=c
 m=n.EB(l)
 p=2
@@ -104609,7 +104609,7 @@ p=4
 m=B.bP.LR(a,null)
 A.J(m)
 s=7
-return A.V(A.aMX(A.a([new A.wA(),new A.wb()],t.hA)).Ek(A.hM("http://65.2.57.57:5000/bus-seva/"+b,0,null),m).NT(0,B.my),$async$El)
+return A.V(A.aMX(A.a([new A.wA(),new A.wb()],t.hA)).Ek(A.hM("http://13.203.7.164:5000/bus-seva/"+b,0,null),m).NT(0,B.my),$async$El)
 case 7:l=d
 j=n.EB(l)
 p=2
@@ -104641,7 +104641,7 @@ var $async$CM=A.v(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:k=null
 p=4
 s=7
-return A.V(A.aMX(A.a([new A.wA(),new A.wb()],t.hA)).CL(0,A.hM("http://65.2.57.57:5000/bus-seva/"+a,0,null)).NT(0,B.my),$async$CM)
+return A.V(A.aMX(A.a([new A.wA(),new A.wb()],t.hA)).CL(0,A.hM("http://13.203.7.164:5000/bus-seva/"+a,0,null)).NT(0,B.my),$async$CM)
 case 7:m=c
 k=n.EB(m)
 p=2
@@ -104669,7 +104669,7 @@ p=4
 m=B.bP.LR(a,null)
 A.J(m)
 s=7
-return A.V(A.aMX(A.a([new A.wA(),new A.wb()],t.hA)).Eo(0,A.hM("http://65.2.57.57:5000/bus-seva/"+b,0,null),m).NT(0,B.my),$async$Ep)
+return A.V(A.aMX(A.a([new A.wA(),new A.wb()],t.hA)).Eo(0,A.hM("http://13.203.7.164:5000/bus-seva/"+b,0,null),m).NT(0,B.my),$async$Ep)
 case 7:l=d
 j=n.EB(l)
 p=2
