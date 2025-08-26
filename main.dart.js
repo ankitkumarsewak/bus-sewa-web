@@ -111659,30 +111659,30 @@ e.toString
 A.aV(u.Y,e)
 return!1}else{A.F("ffffff")
 return!0}}},
-kb(a){var s,r="emp_type",q="dfdsfd",p="Employee Management",o="emp_code",n="Employee Code",m="emp_Name",l="Full Name",k="emp_active",j="Please select .",i="emp_coupon_type",h="emp_email",g="emp_mobile",f=A.eY("list",new A.aB6()),e=f.bd(),d=J.W(a),c=d.i(a,r)
-if(c==null)c=""
+kb(a){var s,r="emp_type",q="dfdsfd",p="emp_code",o="Employee Code",n="emp_Name",m="Full Name",l="emp_active",k="Please select .",j="emp_coupon_type",i="emp_email",h="emp_mobile",g=A.eY("list",new A.aB6()),f=g.bd(),e=J.W(a),d=e.i(a,r)
+if(d==null)d=""
 s=t.s
-J.bT(e,new A.bZ("Employee Type",r,q,B.aZ,c,!0,"Please enter the Employee ID.",A.a(["Employee Non Management",p,p,"Township Employee","Employee Depended","Daily Ticket","School/Coaching","Apprentice","KKBMS","Hostel","Health Centre","Contractor","Security","Others","Conductor"],s),!1,B.K))
-c=f.bd()
-e=d.i(a,o)
-J.bT(c,new A.bZ(n,o,n,B.P,e==null?"":e,!0,"Please enter Employee Code.",B.a_,!0,B.K))
-e=f.bd()
-c=d.i(a,m)
-J.bT(e,new A.bZ(l,m,l,B.P,c==null?"":c,!0,"Please enter Full Name.",B.a_,!1,B.K))
-e=f.bd()
-c=d.i(a,k)
-if(c==null)c=""
-J.bT(e,new A.bZ("Active",k,q,B.aZ,c,!0,j,A.a(["Yes","No"],s),!1,B.K))
-s=f.bd()
-c=d.i(a,i)
-J.bT(s,new A.bZ("Coupon Type",i,q,B.aZ,c==null?"":c,!0,j,B.nQ,!1,B.K))
-e=f.bd()
-c=d.i(a,h)
-J.bT(e,new A.bZ("Email",h,q,B.P,c==null?"":c,!1,"Please enter the Email ID.",B.a_,!1,B.K))
-e=f.bd()
-d=d.i(a,g)
-J.bT(e,new A.bZ("Mobile",g,q,B.P,d==null?"":d,!1,"Please enter the Mobile No.",B.a_,!1,B.K))
-return f.bd()},
+J.bT(f,new A.bZ("Employee Type",r,q,B.aZ,d,!0,"Please enter the Employee ID.",A.a(["Employee Non Management","Employee Management","Township Employee","Employee Depended","Daily Ticket","School/Coaching","Apprentice","KKBMS","Hostel","Health Centre","Contractor","Security","Others","Conductor"],s),!1,B.K))
+d=g.bd()
+f=e.i(a,p)
+J.bT(d,new A.bZ(o,p,o,B.P,f==null?"":f,!0,"Please enter Employee Code.",B.a_,!0,B.K))
+f=g.bd()
+d=e.i(a,n)
+J.bT(f,new A.bZ(m,n,m,B.P,d==null?"":d,!0,"Please enter Full Name.",B.a_,!1,B.K))
+f=g.bd()
+d=e.i(a,l)
+if(d==null)d=""
+J.bT(f,new A.bZ("Active",l,q,B.aZ,d,!0,k,A.a(["Yes","No"],s),!1,B.K))
+s=g.bd()
+d=e.i(a,j)
+J.bT(s,new A.bZ("Coupon Type",j,q,B.aZ,d==null?"":d,!0,k,B.nQ,!1,B.K))
+f=g.bd()
+d=e.i(a,i)
+J.bT(f,new A.bZ("Email",i,q,B.P,d==null?"":d,!1,"Please enter the Email ID.",B.a_,!1,B.K))
+f=g.bd()
+e=e.i(a,h)
+J.bT(f,new A.bZ("Mobile",h,q,B.P,e==null?"":e,!1,"Please enter the Mobile No.",B.a_,!1,B.K))
+return g.bd()},
 dX(){var s=this.db.gM()
 if(s.eM()){s.eB(0)
 return!0}return!1},
@@ -112540,26 +112540,28 @@ A.aJI.prototype={
 $0(){this.a.iq()},
 $S:0}
 A.aJJ.prototype={
-$0(){var s,r,q,p=this,o="member_code",n=p.a,m=n.ay,l=m.i(0,o)
-if(l==null){A.aV("Please enter the member id.",p.b)
-return}if(A.bx(l,null)<9e4){A.aV(u.x,p.b)
-return}if(!n.dX())return
-if(!n.rd()){A.aV("check selected date",p.b)
-return}if(n.db.a===0){A.aV("Please Choose Rate Plans.",p.b)
+$0(){var s,r,q,p=this,o="member_code",n="member_email",m="member_mobile",l=p.a,k=l.ay,j=k.i(0,o)
+if(j==null){A.aV("Please enter the member id.",p.b)
+return}if(A.bx(j,null)<9e4){A.aV(u.x,p.b)
+return}if(!l.dX())return
+if(k.i(0,n)==null)k.h(0,n,"abc@yopmail.com")
+if(k.i(0,m)==null)k.h(0,m,"123478787")
+if(!l.rd()){A.aV("check selected date",p.b)
+return}if(l.db.a===0){A.aV("Please Choose Rate Plans.",p.b)
 return}s=A.bE("^[0-9_.]+$",!1)
-r=J.ad(m.i(0,o))
+r=J.ad(k.i(0,o))
 if(!s.b.test(r)){A.aV("Member code should be number",p.b)
 return}s=t.N
-if(n.fr==null){s=A.a6(["imagestore","data:image/png;"],s,s)
-n.z=s
-m.K(0,s)
-n.AQ()}else{q=A.avS(m.i(0,"emp_code"))
+if(l.fr==null){s=A.a6(["imagestore","data:image/png;"],s,s)
+l.z=s
+k.K(0,s)
+l.AQ()}else{q=A.avS(k.i(0,"emp_code"))
 s=A.a6(["imagestore",q],s,s)
-n.z=s
-m.K(0,s)
-s=n.fr
+l.z=s
+k.K(0,s)
+s=l.fr
 s.toString
-n.pH(s,q,m)}},
+l.pH(s,q,k)}},
 $S:0}
 A.aJp.prototype={
 $1(a){var s,r,q=a.a
@@ -112942,24 +112944,26 @@ A.aKa.prototype={
 $0(){this.a.iq()},
 $S:0}
 A.aKb.prototype={
-$0(){var s,r,q=this,p=q.a,o=p.as,n=o.i(0,"member_code")
-if(n==null){A.aV("Please enter the member id.",q.b)
-return}if(A.bx(n,null)<9e4){A.aV(u.x,q.b)
-return}if(!p.dX())return
-if(!p.rd()){A.aV("check selected date",q.b)
-return}if(p.CW.a===0){A.aV("Please Choose Rate Plans.",q.b)
+$0(){var s,r,q=this,p="member_email",o="member_mobile",n=q.a,m=n.as,l=m.i(0,"member_code")
+if(l==null){A.aV("Please enter the member id.",q.b)
+return}if(A.bx(l,null)<9e4){A.aV(u.x,q.b)
+return}if(!n.dX())return
+if(m.i(0,p)==null)m.h(0,p,"abc@yopmail.com")
+if(m.i(0,o)==null)m.h(0,o,"123478787")
+if(!n.rd()){A.aV("check selected date",q.b)
+return}if(n.CW.a===0){A.aV("Please Choose Rate Plans.",q.b)
 return}s=t.N
-o.K(0,A.a6(["member_from_date",p.r,"member_to_date",p.w],s,t.z))
-o.K(0,p.y)
-o.K(0,p.CW)
-if(p.dx==null)p.Ci(o,p.ax)
-else{r=A.avS(o.i(0,"emp_code"))
+m.K(0,A.a6(["member_from_date",n.r,"member_to_date",n.w],s,t.z))
+m.K(0,n.y)
+m.K(0,n.CW)
+if(n.dx==null)n.Ci(m,n.ax)
+else{r=A.avS(m.i(0,"emp_code"))
 s=A.a6(["imagestore",r],s,s)
-p.y=s
-o.K(0,s)
-s=p.dx
+n.y=s
+m.K(0,s)
+s=n.dx
 s.toString
-p.pG(s,r)}},
+n.pG(s,r)}},
 $S:0}
 A.aJR.prototype={
 $1(a){var s,r,q=a.a
