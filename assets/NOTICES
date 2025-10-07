@@ -1802,6 +1802,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
 async
 collection
+mime
 stream_channel
 typed_data
 
@@ -2971,6 +2972,8 @@ SUCH DAMAGE.
 cross_file
 flutter_lints
 flutter_plugin_android_lifecycle
+image_picker_for_web
+image_picker_platform_interface
 path_provider
 path_provider_android
 path_provider_foundation
